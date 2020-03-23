@@ -8,8 +8,8 @@ A very simple and beginner level project on creating a socket.io chat server for
 
 # Commands
 - /help
-- /w <username> <text>
-- /<sound> (plays the predefined YouTube sound url)
+- /w <\username> <\text>
+- /<\sound> (plays the predefined YouTube sound url)
 
 # Sound Commands
 
