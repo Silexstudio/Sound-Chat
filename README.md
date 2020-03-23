@@ -11,7 +11,7 @@ A very simple and beginner level project on creating a socket.io chat server for
 - /w <username> <text>
 - /<sound> (plays the predefined YouTube sound url)
 
-#Sound Commands
+# Sound Commands
 
 Plays the predefined youtube urls specified in server.js (line 9).
 
