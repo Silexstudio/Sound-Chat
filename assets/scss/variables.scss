@@ -1,0 +1,30 @@
+/* Breakpoints */
+$breakpoints: (
+    "phone-extra-small": 330px,
+    "phone-small":  360px,
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 641px,
+    "tablet":       768px,
+    "md":           992px,
+    "tablet-wide":  1024px,
+    "tablet-wide-1":1025px,
+    "lg":           1200px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px,
+    "desktop-fhd":  1920px,
+    "desktop-wqhd": 2560px
+);
+
+/* Breakpoints Bootstrap Layout */
+$breakpoint-lg : 1200px;
+$breakpoint-md : 991px;
+$breakpoint-sm : 768px;
+$breakpoint-xs : 640px;
+
+$color1: #21223f;
+$color2: #ededed;
+$color3: #f24141;
+$color4: darken($color2, 5%);
+

@@ -1,0 +1,139 @@
+iframe{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events: none;
+    filter: blur(20px);
+}
+
+#main{
+    position: relative;
+    z-index: 1000;
+}
+
+.whisper{
+    color: #ff72fc;
+}
+
+#chat{
+    border-radius: 3px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px 15px;
+    box-shadow: 0 0 15px rgba(255,255,255,.13);
+
+    input{
+        width: 424px;
+        border-color: $color1;
+    }
+
+    #login{
+        color: $color2;
+        user-select: none;
+        height: 73px;
+        transition: all 0.3s;
+        overflow: hidden;
+
+        &.hideme{
+            height: 0px;
+        }
+    }
+
+    hr{
+        border-top: 1px solid $color1;
+    }
+
+    #cont{
+        height: 0px;
+        transition: all 0.3s;
+        overflow: hidden;
+
+        .head{
+            height:30px;
+            color: $color1;
+            > div{
+                line-height: 30px;
+                padding: 0 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: $color4;
+                font-size: 14px;
+                border: 1px solid $color1;
+                border-bottom: none;
+                position: relative;
+                top: 1px;
+            }
+        }
+
+        &.open{
+            height:400px;
+        }
+
+        #users{
+            width:25%;
+            margin-right:10px;
+            border-radius:3px;
+            border: 1px solid $color1;
+            background: $color4;
+            color: $color1;
+            padding:10px;
+            font-size: 14px;
+            
+            hr{
+                margin-bottom:5px;
+            }
+
+            .head{
+                height:28px;
+            }
+
+            p{
+                margin:0;
+            }
+        }
+
+        #channels{
+            width: 75%;
+        }
+
+        .log{
+            background: $color4;
+            height:320px;
+            border: 1px solid $color1;
+            padding:10px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            .content{
+                min-height:300px;
+                color: $color1;
+                font-size:12px;
+
+                p{
+                    span{
+                        font-weight:800;
+                    }
+                    margin:0;
+                }
+            }
+
+        }
+    }
+
+    #alert{
+        height: 0;
+        overflow: hidden;
+        background: $color3;
+        color: $color2;
+        font-size:12px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        p{
+            padding:8px 5px;
+        }
+        &.active{
+            height: 32px;
+        }
+    }
+}

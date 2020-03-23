@@ -1,0 +1,17 @@
+body{
+    background: $color1;
+    color: $color2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.section{
+    padding: 20px 0;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.color-1{
+    color: $color1;
+}
