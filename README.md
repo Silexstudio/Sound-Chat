@@ -4,7 +4,7 @@ A very simple and beginner level project on creating a socket.io chat server for
 
 # Demo
 
-[![Demo Video](https://i.ytimg.com/vi/3SxrbuAG31w/hqdefault.jpg)](https://www.youtube.com/watch?v=3SxrbuAG31w)
+[![Demo Video](https://i.ytimg.com/vi/3SxrbuAG31w/maxresdefault.jpg)](https://www.youtube.com/watch?v=3SxrbuAG31w)
 
 # Commands
 - /help
